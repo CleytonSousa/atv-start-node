@@ -1,0 +1,12 @@
+{
+  "name": "projeto",
+  "version": "1.0.0",
+  "description": "Teste de node",
+  "main": "index.js",
+  "author": "Cleyton Sousa",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
