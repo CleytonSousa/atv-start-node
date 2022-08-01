@@ -1,4 +1,5 @@
 const express = require("express");
+require("dotenv").config()
 
 const app = express();
 const data = [];
@@ -37,6 +38,6 @@ app.get("/getuser/:idadeUser", (req, res) => {
     return res.send(inAgeUser);
 })
 
-app.listen(1234, () => {
+app.listen(process.env.PORT || process.env.port, () => {
     console.log("Pai tá on")
 })
